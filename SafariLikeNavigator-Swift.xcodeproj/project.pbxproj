@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F86C7E01AD16C310078D4D3 /* MenuChildController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F86C7DF1AD16C310078D4D3 /* MenuChildController.swift */; };
+		7FA0ACA01ACD026800802E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0AC9F1ACD026800802E95 /* AppDelegate.swift */; };
+		7FA0ACA21ACD026800802E95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0ACA11ACD026800802E95 /* ViewController.swift */; };
+		7FA0ACA51ACD026800802E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0ACA31ACD026800802E95 /* Main.storyboard */; };
+		7FA0ACA71ACD026800802E95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0ACA61ACD026800802E95 /* Images.xcassets */; };
+		7FA0ACAA1ACD026800802E95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0ACA81ACD026800802E95 /* LaunchScreen.xib */; };
+		7FA0ACB61ACD026800802E95 /* SafariLikeNavigator_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0ACB51ACD026800802E95 /* SafariLikeNavigator_SwiftTests.swift */; };
+		7FA0ACC01ACD085600802E95 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA0ACBF1ACD085600802E95 /* MenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FA0ACB01ACD026800802E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA0AC921ACD026800802E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FA0AC991ACD026800802E95;
+			remoteInfo = "SafariLikeNavigator-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F86C7DF1AD16C310078D4D3 /* MenuChildController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuChildController.swift; sourceTree = "<group>"; };
+		7FA0AC9A1ACD026800802E95 /* SafariLikeNavigator-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafariLikeNavigator-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA0AC9E1ACD026800802E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA0AC9F1ACD026800802E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FA0ACA11ACD026800802E95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FA0ACA41ACD026800802E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FA0ACA61ACD026800802E95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7FA0ACA91ACD026800802E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7FA0ACAF1ACD026800802E95 /* SafariLikeNavigator-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SafariLikeNavigator-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA0ACB41ACD026800802E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA0ACB51ACD026800802E95 /* SafariLikeNavigator_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariLikeNavigator_SwiftTests.swift; sourceTree = "<group>"; };
+		7FA0ACBF1ACD085600802E95 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FA0AC971ACD026800802E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA0ACAC1ACD026800802E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FA0AC911ACD026800802E95 = {
+			isa = PBXGroup;
+			children = (
+				7FA0AC9C1ACD026800802E95 /* SafariLikeNavigator-Swift */,
+				7FA0ACB21ACD026800802E95 /* SafariLikeNavigator-SwiftTests */,
+				7FA0AC9B1ACD026800802E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FA0AC9B1ACD026800802E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0AC9A1ACD026800802E95 /* SafariLikeNavigator-Swift.app */,
+				7FA0ACAF1ACD026800802E95 /* SafariLikeNavigator-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FA0AC9C1ACD026800802E95 /* SafariLikeNavigator-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0AC9F1ACD026800802E95 /* AppDelegate.swift */,
+				7FA0ACA11ACD026800802E95 /* ViewController.swift */,
+				7FA0ACA31ACD026800802E95 /* Main.storyboard */,
+				7FA0ACA61ACD026800802E95 /* Images.xcassets */,
+				7FA0ACA81ACD026800802E95 /* LaunchScreen.xib */,
+				7FA0AC9D1ACD026800802E95 /* Supporting Files */,
+				7FA0ACBF1ACD085600802E95 /* MenuController.swift */,
+				7F86C7DF1AD16C310078D4D3 /* MenuChildController.swift */,
+			);
+			path = "SafariLikeNavigator-Swift";
+			sourceTree = "<group>";
+		};
+		7FA0AC9D1ACD026800802E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0AC9E1ACD026800802E95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FA0ACB21ACD026800802E95 /* SafariLikeNavigator-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0ACB51ACD026800802E95 /* SafariLikeNavigator_SwiftTests.swift */,
+				7FA0ACB31ACD026800802E95 /* Supporting Files */,
+			);
+			path = "SafariLikeNavigator-SwiftTests";
+			sourceTree = "<group>";
+		};
+		7FA0ACB31ACD026800802E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0ACB41ACD026800802E95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FA0AC991ACD026800802E95 /* SafariLikeNavigator-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA0ACB91ACD026800802E95 /* Build configuration list for PBXNativeTarget "SafariLikeNavigator-Swift" */;
+			buildPhases = (
+				7FA0AC961ACD026800802E95 /* Sources */,
+				7FA0AC971ACD026800802E95 /* Frameworks */,
+				7FA0AC981ACD026800802E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafariLikeNavigator-Swift";
+			productName = "SafariLikeNavigator-Swift";
+			productReference = 7FA0AC9A1ACD026800802E95 /* SafariLikeNavigator-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FA0ACAE1ACD026800802E95 /* SafariLikeNavigator-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA0ACBC1ACD026800802E95 /* Build configuration list for PBXNativeTarget "SafariLikeNavigator-SwiftTests" */;
+			buildPhases = (
+				7FA0ACAB1ACD026800802E95 /* Sources */,
+				7FA0ACAC1ACD026800802E95 /* Frameworks */,
+				7FA0ACAD1ACD026800802E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FA0ACB11ACD026800802E95 /* PBXTargetDependency */,
+			);
+			name = "SafariLikeNavigator-SwiftTests";
+			productName = "SafariLikeNavigator-SwiftTests";
+			productReference = 7FA0ACAF1ACD026800802E95 /* SafariLikeNavigator-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FA0AC921ACD026800802E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Sardorbek;
+				TargetAttributes = {
+					7FA0AC991ACD026800802E95 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7FA0ACAE1ACD026800802E95 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7FA0AC991ACD026800802E95;
+					};
+				};
+			};
+			buildConfigurationList = 7FA0AC951ACD026800802E95 /* Build configuration list for PBXProject "SafariLikeNavigator-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FA0AC911ACD026800802E95;
+			productRefGroup = 7FA0AC9B1ACD026800802E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FA0AC991ACD026800802E95 /* SafariLikeNavigator-Swift */,
+				7FA0ACAE1ACD026800802E95 /* SafariLikeNavigator-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FA0AC981ACD026800802E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA0ACA51ACD026800802E95 /* Main.storyboard in Resources */,
+				7FA0ACAA1ACD026800802E95 /* LaunchScreen.xib in Resources */,
+				7FA0ACA71ACD026800802E95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA0ACAD1ACD026800802E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FA0AC961ACD026800802E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA0ACA21ACD026800802E95 /* ViewController.swift in Sources */,
+				7F86C7E01AD16C310078D4D3 /* MenuChildController.swift in Sources */,
+				7FA0ACC01ACD085600802E95 /* MenuController.swift in Sources */,
+				7FA0ACA01ACD026800802E95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA0ACAB1ACD026800802E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA0ACB61ACD026800802E95 /* SafariLikeNavigator_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FA0ACB11ACD026800802E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FA0AC991ACD026800802E95 /* SafariLikeNavigator-Swift */;
+			targetProxy = 7FA0ACB01ACD026800802E95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FA0ACA31ACD026800802E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FA0ACA41ACD026800802E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FA0ACA81ACD026800802E95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FA0ACA91ACD026800802E95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FA0ACB71ACD026800802E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FA0ACB81ACD026800802E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FA0ACBA1ACD026800802E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SafariLikeNavigator-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FA0ACBB1ACD026800802E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SafariLikeNavigator-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FA0ACBD1ACD026800802E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SafariLikeNavigator-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariLikeNavigator-Swift.app/SafariLikeNavigator-Swift";
+			};
+			name = Debug;
+		};
+		7FA0ACBE1ACD026800802E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SafariLikeNavigator-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariLikeNavigator-Swift.app/SafariLikeNavigator-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FA0AC951ACD026800802E95 /* Build configuration list for PBXProject "SafariLikeNavigator-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA0ACB71ACD026800802E95 /* Debug */,
+				7FA0ACB81ACD026800802E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA0ACB91ACD026800802E95 /* Build configuration list for PBXNativeTarget "SafariLikeNavigator-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA0ACBA1ACD026800802E95 /* Debug */,
+				7FA0ACBB1ACD026800802E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA0ACBC1ACD026800802E95 /* Build configuration list for PBXNativeTarget "SafariLikeNavigator-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA0ACBD1ACD026800802E95 /* Debug */,
+				7FA0ACBE1ACD026800802E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FA0AC921ACD026800802E95 /* Project object */;
+}
