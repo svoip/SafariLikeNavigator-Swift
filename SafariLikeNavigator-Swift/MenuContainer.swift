@@ -1,5 +1,5 @@
 //
-//  MenuController.swift
+//  MenuContainer.swift
 //  SafariLikeNavigator-Swift
 //
 //  Created by Sardorbek on 4/2/15.

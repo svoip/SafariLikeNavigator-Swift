@@ -1,5 +1,5 @@
 //
-//  MenuChildController.swift
+//  MenuController.swift
 //  SafariLikeNavigator-Swift
 //
 //  Created by Sardorbek on 4/5/15.
