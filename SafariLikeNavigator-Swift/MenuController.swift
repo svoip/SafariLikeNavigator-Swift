@@ -12,9 +12,7 @@ typealias ViewWillAppearCompletionBlock = (idx: Int) -> Void
 typealias ViewWillDisappearCompletionBlock = (idx: Int) -> Void
 
 class MenuController: UIViewController {
-
    var viewWillAppearBlock: ViewWillAppearCompletionBlock?
    var viewWillDisappearBlock: ViewWillDisappearCompletionBlock?
    var index: Int?
-   
 }

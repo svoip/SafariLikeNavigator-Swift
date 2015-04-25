@@ -46,7 +46,6 @@ class MenuContainer: UIViewController {
       let height = CGFloat(padding) + PADDING_BETWEEN_VC
       var list : [MenuController] = []
       var frame = CGRectMake(20, 30, 280, height)
-      
       for (index, controller) in enumerate(_children){
          controller.view.frame = frame
          frame.origin.y += CGFloat(padding)
@@ -93,7 +92,6 @@ class MenuContainer: UIViewController {
       _button!.setTitleColor(UIColor.grayColor(), forState: .Normal)
       _button!.setTitleColor(UIColor.blueColor(), forState: .Highlighted)
       _button!.addTarget(self, action: "toolbarButtonClicked:", forControlEvents: .TouchUpInside)
-   
       var bi = UIBarButtonItem(customView: _button!)
       var spacer = UIBarButtonItem()
       spacer.width = 220
@@ -156,10 +154,8 @@ class MenuContainer: UIViewController {
       child.viewWillDisappearBlock!(idx: child.index!)
       
       UIView.animateWithDuration(0.5, animations: {
-         
          self._configureFrames()
          self._bend()
-         
          }, completion:nil)
       
       _state = .MenuCollapsed
